@@ -1,0 +1,64 @@
+
+
+Trying to download upstream block state...
+
+groupadd: group 'docker' already exists
+
+useradd: user 'docker' already exists
+
+Initializing configuration structure in directory '/var/lib/concordium/config'.
+
+Skipping '/var/lib/concordium/config': directory already exists.
+
+Creating directory '/var/lib/concordium/config/accounts'.
+
+Skipping '/var/lib/concordium/config/accounts': directory already exists.
+
+Creating file '/var/lib/concordium/config/accounts/names.map'.
+
+Skipping '/var/lib/concordium/config/accounts/names.map': file already exists.
+
+[92mConfiguration initialized.
+
+[0m2020-10-21 22:30:54,694 INFO Included extra file "/etc/supervisor/conf.d/concordium.conf" during parsing
+2020-10-21 22:30:54,694 INFO Set uid to user 0 succeeded
+2020-10-21 22:30:54,702 INFO RPC interface 'supervisor' initialized
+2020-10-21 22:30:54,702 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-10-21 22:30:54,703 INFO supervisord started with pid 13
+2020-10-21 22:30:55,706 INFO spawned: 'collector' with pid 15
+2020-10-21 22:30:55,708 INFO spawned: 'middleware' with pid 16
+2020-10-21 22:30:55,710 INFO spawned: 'nginx' with pid 17
+2020-10-21 22:30:55,719 INFO spawned: 'p2p-client' with pid 18
+2020-10-21 22:30:55.797837685Z: INFO: Starting up p2p_client version 0.3.2!
+2020-10-21 22:30:55.799126838Z: INFO: Application data directory: "/var/lib/concordium/data"
+2020-10-21 22:30:55.799750556Z: INFO: Application config directory: "/var/lib/concordium/config"
+2020-10-21 22:30:55.800295997Z: INFO: Network: enabled
+2020-10-21 22:30:55.800801924Z: INFO: Log level: info
+2020-10-21 22:30:55.801509980Z: INFO: My Node ID is 9609310b0f633894
+2020-10-21 22:30:55.804413756Z: INFO: Starting consensus layer
+2020-10-21 22:30:55.804421511Z: INFO: Starting up the consensus thread
+2020-10-21 22:30:55.805854102Z: INFO: Starting up the consensus layer
+2020-10-21 22:30:56,807 INFO success: collector entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-21 22:30:56,807 INFO success: middleware entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-21 22:30:56,808 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-21 22:30:56,808 INFO success: p2p-client entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-21 22:31:17.719566449Z: INFO: Consensus layer started
+2020-10-21 22:31:17.720221466Z: INFO: RPC server started
+2020-10-2122:31:17.720449342Z: INFO: Starting out of band catch-up
+2020-10-2122:31:17.721464824Z: ERROR: External: Error importing block: OtherError ResultDuplicate
+2020-10-2122:31:17.721609735Z: INFO: Completed out of band catch-up
+2020-10-2122:31:17.722104542Z: INFO: Starting the P2P layer
+2020-10-2122:31:17.722303053Z: INFO: Attempting to bootstrap
+2020-10-2122:31:17.761330969Z: INFO: Using bootstrapper 52.17.42.154:8888
+2020-10-2122:31:17.762019058Z: INFO: Using bootstrapper 54.77.133.220:8888
+2020-10-2122:31:17.762334037Z: INFO: Commencing baking
+2020-10-2122:31:17.762817012Z: INFO: Runner: Starting baker thread
+2020-10-2122:31:18.264366635Z: INFO: Sent a direct message to peer cf133c3d2c071f99 containing a catch-up status message
+2020-10-2122:31:18.363002816Z: INFO: Processed a catch-up status message from cf133c3d2c071f99
+2020-10-2122:31:18.363718215Z: INFO: Sent a direct message to peer cf133c3d2c071f99 containint a catch-up status message
+2020-10-2122:31:18.410676398Z: INFO: Processed a catch-up status message from 64b9935a609f2dc8
+2020-10-2122:31:18.411830098Z: INFO: Sent a direct message to peer 64b9935a609f2dc8 containing a catch-up status message
+2020-10-2122:31:18.413191076Z: INFO: Processed a catch-up status message from ffd859eed23c199a
+2020-10-2122:31:18.414131255Z: INFO: Sent a direct message to peer ffd859eed23c199a containing a catch-up status message
+2020-10-2122:31:18.415393238Z: INFO: Processed a catch-up status message from cf00e6a7f68b37d9
+
