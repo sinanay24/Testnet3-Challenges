@@ -1,1 +1,12 @@
+Node name: sina
+Node Id: 9609310b0f633894
 
+==============================================
+1. stopped node with ctrl+c and started node
+Time: 24s
+Lenght: 125986 - 125990 (4 blocks)
+==============================================
+2. stopped node with ctrl+c and started with --no-block-state-import
+Time: 22s
+Lenght: 126061 - 126065 (4 blocks)
+==============================================
